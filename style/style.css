@@ -1,11 +1,11 @@
-
+/* 
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
-}
+} */
 
 nav{
     display: flex;
@@ -40,8 +40,44 @@ nav ul a{
     width: 150px;
     border-radius: 5px;
     padding: 18px 35px;
+    border: none;
 }
 nav ul{
     display: flex;
     align-items: center;
+}
+.banercert{
+    max-width: 580px;
+    margin-top: 297px;
+    margin-bottom: 184px;
+    margin: 297px 1193px 479px 130px;
+
+}
+.banerheading{
+    font-size: 45px;
+    font-weight: 600px;
+    
+}
+.banerhead{
+    font-size: 85px;
+    font-weight: 700px;
+}
+.headp{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.pic{
+    height: 676px;
+    width: 580px;
+}
+.baner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
+}
+.header{
+    background-image: url("../images/developer.png") , url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left ,bottom right;
+    background-color: rgb(255, 248, 243);
 }
